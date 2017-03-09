@@ -1,4 +1,4 @@
-```
+```C
 #include "test.h"
 
 #include <stdio.h>
@@ -58,7 +58,7 @@ static void test_order_of_assert(void)
 }
 ```
 
-```
+```C
 Running test test.c:24:test_assert_equals() 
  test.c:26:test_assert_equals() Assert Equals Expected >> 2 but was 3 <<
  test.c:26:test_assert_equals() Test Failed
